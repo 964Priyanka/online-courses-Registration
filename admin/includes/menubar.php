@@ -13,7 +13,7 @@
                                <li><a href="manage-students.php">Manage Students</a></li>
                                <li><a href="enroll-history.php">Enroll History</a></li>
                                <li><a href="user-log.php">Student Logs </a></li>
-                                <li><a href="news.php">News </a></li>
+                                
                             <li><a href="logout.php">Logout</a></li>
 
                         </ul>
