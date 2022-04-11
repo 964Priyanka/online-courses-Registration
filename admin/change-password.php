@@ -31,7 +31,7 @@ echo '<script>window.location.href=change-password.php</script>';
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
-    <title>Admin | Change Password</title>
+    <title> Change Password</title>
     <link href="../assets/css/bootstrap.css" rel="stylesheet" />
     <link href="../assets/css/font-awesome.css" rel="stylesheet" />
     <link href="../assets/css/style.css" rel="stylesheet" />
