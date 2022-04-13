@@ -43,7 +43,7 @@ body {
     padding-bottom: 20px;
     border-bottom: 2px solid #F0677C;
     text-transform: uppercase;
-    color: #12076d;
+    color: #c21c1c;
     font-size: 20px;
     margin-bottom: 40px;
 }
@@ -70,7 +70,7 @@ margin-bottom: 20px;
 color: #fff;
 text-align: center;
 cursor:pointer;
-background-color:#180749;
+background-color:#be1a1a;
 -webkit-border-radius:50%;
     -moz-border-radius:50%;
 }
@@ -78,7 +78,7 @@ background-color:#180749;
    HEADER SECTION STYLES
  ============================================================ */
 header {
-    background-color: #761acc;
+    background-color: #cc1a1a;
     color: #fff;
     padding: 10px;
     text-align: right;
@@ -109,7 +109,7 @@ header {
     -moz-border-radius: 50%;
     height: 60px;
     width: 60px;
-    background-color: #2f0a6b;
+    background-color: #d31010;
     color: #fff;
 }
 
@@ -128,7 +128,7 @@ header {
 
     .user-settings-wrapper .nav > li > a:hover,.user-settings-wrapper .nav > li > a:focus {
         text-decoration: none;
-        background-color: #2e0b66!important;
+        background-color: #b61010!important;
     }
 
     .user-settings-wrapper img {
@@ -169,24 +169,24 @@ header {
 }
 
 .menu-top-active {
-    background-color: #610bc4;
+    background-color: #aa1212;
 }
 
 .menu-section .nav > li > a:hover,.menu-section .nav > li > a:focus {
-    background-color: #900ecc!important;
+    background-color: #a81111!important;
 }
 
 .menu-section .dropdown-menu > li > a:hover,.menu-section .dropdown-menu > li > a:focus {
-    background-color: #6808b6!important;
+    background-color: #c00c33!important;
 }
 
 .navbar-inverse {
-    background-color: #370c9c;
+    background-color: #b3112c;
     border-color: transparent;
 }
 
 .navbar-toggle {
-    background-color: #4311b9;
+    background-color: #d60f0f;
     border: 1px solid #fff;
 }
 
@@ -200,7 +200,7 @@ footer {
     padding: 10px;
     color: #fff;
     font-size: 12px;
-    background-color: #6210af;
+    background-color: #b8151d;
 }
 
     footer a, footer a:hover {
@@ -219,7 +219,7 @@ footer {
 }
 
 .bk-clr-two {
-    background-color: #470ba8;
+    background-color: #a80b20;
 }
 
 .bk-clr-three {
@@ -298,7 +298,7 @@ footer {
     }
 
 .btn-facebook {
-    background-color: #3b5998;
+    background-color: #a51d1d;
 }
 
 .btn-twitter {

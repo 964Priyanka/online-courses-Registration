@@ -5,7 +5,7 @@ include("includes/config.php");
 if(isset($_POST['submit']))
 {
     $username=$_POST['username'];
-    $password=md5($_POST['password']);
+    $password=($_POST['password']);
 $query=mysqli_query($con,"SELECT * FROM admin WHERE username='$username' and password='$password'");
 $num=mysqli_fetch_array($query);
 if($num>0)
@@ -67,7 +67,7 @@ exit();
                 </div>
 
             </div>
-             <span style="color:red;" ><?php echo htmlentities($_SESSION['errmsg']); ?><?php echo htmlentities($_SESSION['errmsg']="");?></span>
+             <span style="color:black;" ><?php echo htmlentities($_SESSION['errmsg']); ?><?php echo htmlentities($_SESSION['errmsg']="");?></span>
             <form name="admin" method="post">
             <div class="row">
                 <div class="col-md-6">

@@ -15,8 +15,8 @@ $currentTime = date( 'd-m-Y h:i:s A', time () );
 if(isset($_POST['submit']))
 { 
 $regno=$_SESSION['login'];   
-$currentpass=md5($_POST['cpass']);
-$newpass=md5($_POST['newpass']);
+$currentpass=($_POST['cpass']);
+$newpass=($_POST['newpass']);
 $sql=mysqli_query($con,"SELECT password FROM  students where password='$currentpass' && studentRegno='$regno'");
 $num=mysqli_fetch_array($sql);
 if($num>0)
