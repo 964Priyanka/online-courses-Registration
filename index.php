@@ -5,7 +5,7 @@ include("includes/config.php");
 if(isset($_POST['submit']))
 {
     $regno=$_POST['regno'];
-    $password=md5($_POST['password']);
+    $password=($_POST['password']);
 $query=mysqli_query($con,"SELECT * FROM students WHERE StudentRegno='$regno' and password='$password'");
 $num=mysqli_fetch_array($query);
 if($num>0)
@@ -81,27 +81,7 @@ header("location:http:index.php");
                         <button type="submit" name="submit" class="btn btn-info"><span class="glyphicon glyphicon-user"></span> &nbsp;Log Me In </button>&nbsp;
                 </div>
                 </form>
-                <div class="col-md-6">
-                    <div class="alert alert-info">
                 
-                         <strong> Latest News / Updates</strong>
-                         <marquee direction='up'  scrollamount="2" onmouseover="this.stop();" onmouseout="this.start();">
-                        <ul>
-                            <?php
-$sql=mysqli_query($con,"select * from news");
-$cnt=1;
-while($row=mysqli_fetch_array($sql))
-{
-?>
-                            <li>
-                              <a href="news-details.php?nid=<?php echo htmlentities($row['id']);?>"><?php echo htmlentities($row['newstitle']);?>-<?php echo htmlentities($row['postingDate']);?></a>
-                            </li>
-                           <?php } ?> 
-                     
-                        </ul>
-                    </marquee>
-                       
-                    </div>
                                     </div>
 
             </div>
